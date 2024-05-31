@@ -1,4 +1,5 @@
-# Nonlocal-Model-Free-Denoising-Algorithm-for-Single-and-Multichannel-SAR-Dat
+# Nonlocal Model-Free Denoising Algorithm for Single and Multichannel SAR Data
+![Screenshot 2024-05-31 at 11 19 08](https://github.com/HosseinAghababaei/Nonlocal-Model-Free-Denoising-Algorithm-for-Single-and-Multichannel-SAR-Dat/assets/171331481/5132c1c1-1a00-4bb0-a1f0-daa2cc69cb49)
 
 In this repository you can find the matlab code associated to the IEEE TGRS paper Nonlocal Model-Free Denoising Algorithm for Single- and Multichannel SAR Data).
 
@@ -9,17 +10,23 @@ H. Aghababaei, G. Ferraioli, S. Vitale, R. Zamani, G. Schirinzi and V. Pascazio,
 # Usage
 You can find:
 1) the matlab code of the method
+   
      Stc_McSAR.m
 
-2) A free available ESAR testing image
+3) A free available ESAR testing image
+   
      ESAR.mat
 
-3) Auxiliar codes
+5) Auxiliar codes
+
      mask_window.m
+   
      weight_fcn.m
+   
      Pauli_C.m
 
-4) A demo for running the code on the available data:
+7) A demo for running the code on the available data:
+   
      demo.m
 
 In order to filter your specified thecode you should provide as input:
